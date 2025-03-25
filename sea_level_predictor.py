@@ -8,7 +8,6 @@ def draw_plot():
     # Create scatter plot
     fig, ax = plt.subplots()
     ax.scatter(x= "Year", y = "CSIRO Adjusted Sea Level", data = df)
-    # Create first line of best fit
     slope, intercept, r_value, p_value, std_err = linregress(df["Year"], df["CSIRO Adjusted Sea Level"])
     years = pd.Series(range(1880,2050))
     ax.plot(years, intercept + slope*years, 'r', label='first line of best fit')
