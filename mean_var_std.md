@@ -19,7 +19,6 @@ If a list containing less than 9 elements is passed into the function, it should
 
 For example, `calculate([0,1,2,3,4,5,6,7,8])` should return:
 ```py
-
 {
   'mean': [[3.0, 4.0, 5.0], [1.0, 4.0, 7.0], 4.0], 
   'variance': [[6.0, 6.0, 6.0], [0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 6.666666666666667], 
